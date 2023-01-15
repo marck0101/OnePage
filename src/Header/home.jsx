@@ -1,8 +1,10 @@
 import { Card, Grid } from "@mui/material";
 import React from "react";
+// import Galery from "../components/Galery";
 import CardInitial from "../PresentationContent/CardInitial";
 import CardSecundary from "../PresentationContent/CardSecundary";
 import CardTerciary from "../PresentationContent/CardTerciary";
+/* import MyComponent from "../Teste"; */
 
 export default function Home() {
   const imgBackgroung = {

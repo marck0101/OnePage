@@ -1,9 +1,8 @@
-
-header{
+footer {
   width: 100%;
   height: 100px;
-  background-color: #121212;
-  color: #FFF;
+  background-color: #72414b;
+  color: #fff;
 
   display: flex;
   align-items: center;
@@ -11,11 +10,11 @@ header{
   padding: 0 24px;
 }
 
-header a{
-  color: #FFF;
+footer a {
+  color: #fff;
   font-size: 20px;
 }
 
-header a + a{
+footer a + a {
   margin-left: 10px;
 }

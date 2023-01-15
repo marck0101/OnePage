@@ -2,19 +2,14 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Footer() {
-  function CardClicavel() {
-    window.location = "http://localhost:3000"; // acessar menu de relatório, dia, semana mês
-  }
+
   return (
-    <header id="menu">
-      <div class="clicavel" onClick={CardClicavel}>
-        <h2>Nome do Site</h2>
+    <footer id="menu">
+      <div>
+        <p>AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
       </div>
 
-      <div className="menu">
-          <Link to="/">Home</Link>
-      </div>
-    </header>
+    </footer>
   );
 }
 

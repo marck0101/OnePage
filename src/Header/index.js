@@ -9,11 +9,11 @@ function Header() {
   return (
     <header id="menu">
       <div class="clicavel" onClick={CardClicavel}>
-        <h2>Nome do Site</h2>
+        <img src="./imagem/logo1.png" alt="logo" style={{width: 150, height: 75, marginTop: -15}}/>
       </div>
 
       <div className="menu">
-          <Link to="/">Home</Link>
+        <Link to="/">Home</Link>
       </div>
     </header>
   );
